@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,1024,1024">
+	<desc>account_balance icon - Licensed under Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0) - Created with Iconfu.com - Derivative work of Material icons (Copyright Google Inc.)</desc>
+	<defs>
+		<clipPath id="clip-zWeHZ8BZ">
+			<path d="M896,256v85.33h-810.67v-85.33l405.34,-213.33zM85.33,810.67h810.67v128h-810.67zM554.67,426.67v298.66h-128v-298.66zM810.67,426.67v298.66h-128v-298.66zM298.67,426.67v298.66h-128v-298.66z" fill="none"/>
+		</clipPath>
+		<linearGradient x1="512" y1="0" x2="512" y2="1024" gradientUnits="userSpaceOnUse" id="color-SlHSct1v">
+			<stop offset="0" stop-color="#1981ce"/>
+			<stop offset="1" stop-color="#0068b4"/>
+		</linearGradient>
+		<filter id="filter-1EFjwQY3" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB">
+			<feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.13 0" in="SourceGraphic"/>
+			<feOffset dy="13.33"/>
+			<feGaussianBlur stdDeviation="7.33" result="blur0"/>
+			<feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0" in="SourceGraphic"/>
+			<feOffset dy="20"/>
+			<feGaussianBlur stdDeviation="13.33" result="blur1"/>
+			<feMerge>
+				<feMergeNode in="blur0"/>
+				<feMergeNode in="blur1"/>
+			</feMerge>
+		</filter>
+	</defs>
+	<g fill="none" fill-rule="nonzero" style="mix-blend-mode: normal">
+		<path d="M896,256v85.33h-810.67v-85.33l405.34,-213.33zM85.33,810.67h810.67v128h-810.67zM554.67,426.67v298.66h-128v-298.66zM810.67,426.67v298.66h-128v-298.66zM298.67,426.67v298.66h-128v-298.66z" fill="url(#color-SlHSct1v)"/>
+		<g clip-path="url(#clip-zWeHZ8BZ)">
+			<path d="M23.33,967.34v-1020h934.67v1020zM490.67,42.67l-405.34,213.33v85.33h810.67v-85.33zM85.33,938.67h810.67v-128h-810.67zM426.67,426.67v298.66h128v-298.66zM682.67,426.67v298.66h128v-298.66zM170.67,426.67v298.66h128v-298.66z" filter="url(#filter-1EFjwQY3)" fill="#000000"/>
+		</g>
+	</g>
+</svg>

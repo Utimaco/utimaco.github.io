@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Meta Tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author"
+          content="Tanmay Kulkarni, Wolfgang Voigt, Felipe Paradela , Simeon Dimov, William Van Den Andel ">
+    <title>Payment & Transactions</title>
+
+    <!-- CSS Inclusion -->
+
+    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./style/megamenu.css">
+    <link rel="stylesheet" href="./style/corecss/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/masonry.css">
+    <link rel="stylesheet" href="./style/carousel.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!--Homepage CSS-->
+
+    <link rel="stylesheet" href="./style/home.css">
+
+</head>
+
+<header>
+
+    <!-- Navigation Bar -->
+
+    <div class="customnav"
+         style="margin-top: 0;position: fixed;width: 100%;top: 0;z-index: 1;background: white;box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%);">
+        <nav>
+            <a href="javascript:void(0);" class="mobile-menu-trigger"><img src="images/menu.png"
+                                                                           style="height: 30px; width: 30px; margin-top: 1em;"><img
+                    src="images/home/utimacologo.png"></a>
+            <ul class="menu menu-bar"
+                style="position: fixed; width: 100%; top: 0; z-index: 1;box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%);">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="images/home/utimacologo.png" alt="Utimaco" style="height: 50px;">
+                </a>
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Solutions</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="solutionsbyindustry.html" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Industry</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Telecommunications & Lawful Enforcement Agencies</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">Utimaco's LIMS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">Utimaco's Data Retention
+                                                Suite</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="bankingandfinancialservices.html" class="menu-link menu-list-link">Banking
+                                        & Financial Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Governments</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Cloud-Based</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Connected Car (V2V)</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Road Infrastructure (V2I), toll
+                                        collection & ITS</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Energy & Utilities</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Industrial IoT & Manufacturing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Lottery & Gaming</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Media & Entertainment</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Telecommunications</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="applications.html" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Application</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="authentication.html" class="menu-link menu-list-link">Authentication</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Blockchain</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Code Signing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Database Encryption</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Document Signing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Key Injection</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Post-Quantum Crypto Agility</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Public Key Infrastructure (PKI)</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">EJBCA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Random Number Generator</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Compliance</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Request Document for MiFID II
+                                        Compliance</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Products</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="securityanddataencryption.html" class="menu-link mega-menu-link"
+                               aria-haspopup="true">Security
+                                & Data Encryption</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">General Purpose HSM</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">HSM Simulators</a>
+                                </li>
+                                <li>
+                                    <a href="limsaccesspoint.html" class="menu-link menu-list-link"
+                                       aria-haspopup="true">LIMS Access Points</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">for Utimaco LIMS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">for Utimaco DRS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Software Development Kits</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="dataprotection.html" class="menu-link mega-menu-link" aria-haspopup="true">Data
+                                Protection</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">KeyBRIDGE</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Key Management</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Form Factor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="paymentandtransactions.html" class="menu-link mega-menu-link" aria-haspopup="true">Payment
+                                & Transactions</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Payment HSM</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Resources</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Media
+                                Center</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">E-Books</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">PQC for Dummies e-book</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">HSM for Dummies e-book</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Webinars</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Videos</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Newsletters</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Utimaco
+                                Portal</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Software Development Kit (SDK)</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">CryptoServer SDK</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">CryptoScript SDK</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Integration Guides</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Knowledge Base</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Data Sheets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Quickstart Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">LITS - Lawful Interception Test
+                                        Suite</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Simulators</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Utimaco
+                                Resources</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="currentaffairs.html" class="menu-link menu-list-link">Current Affairs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Brochures</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Case Studies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">White Papers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">About Us</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="about.html" class="menu-link mega-menu-link">Company</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Management</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Investors</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Business Ethics</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Offices & Partners</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Memberships &
+                                Certifications</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Engagement in Research</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Partners</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Careers</a>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+                <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2 float-right"
+                      style="margin-right: auto; margin-left: auto;">
+                    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                           aria-label="Search" style="border-style: solid; border-width: thin; border-color: #0068b4;">
+                    <i class="fas fa-search" style="color: #0068b4" aria-hidden="true"></i>
+                </form>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<body>
+
+<!-- Navigation Bar -->
+
+<!--******************************************************************************************************************************************************-->
+
+
+<main role="main">
+
+    <!--Section 1 -Jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid bg-cover text-white"
+         style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 0%), url(images/home/JumbotronBFSOL.png); padding-top: 8em;">
+        <div class="container blurred-background">
+            <h1 class="display-4">Payments & Transactions</h1>
+            <p class="lead">Accessible and Fast Payments</p>
+        </div>
+    </div>
+
+    <!--Jumbotron-->
+
+    <!--******************************************************************************************************************************************************-->
+
+    <!--Section 2 - Second Nav-->
+
+    <div class="second-nav" id="theSecondnav" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%); margin-top: -2em;">
+        <div class="container marketing">
+            <a href="#">Payment HSM</a>
+            <a href="#">Compliance & Standardization </a>
+            <a href="javascript:void(0);" class="icon" onclick="theSecondnav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function theSecondnav() {
+            var x = document.getElementById("theSecondnav");
+            if (x.className === "second-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "second-nav";
+            }
+        }
+    </script>
+
+    <!--******************************************************************************************************************************************************-->
+
+    <!-- Section 3 - For Banking & Financial Services -->
+
+    <div class="container marketing">
+
+        <hr class="featurette-divider" style=" margin: 1.5em; border-color: white;"> <!--Divider Line-->
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading" style="margin-top: 0px;">Secured & Easy Payments</h2>
+                <br><br>
+                <p class="lead">
+                    Payment processing is the soul of all financial service providers and merchants.
+                    Ensuring the security of client data is pivotal to the integrity of internal bank network payments,
+                    ACH transfers, check clearing, mobile payments, and credit card transactions.
+                    Regardless of the processing method, payments and transfers must be processed securely and
+                    quickly—especially when transactions are of high monetary value.
+                    <br><br>
+                    Fortunately organizations can address these critical use cases with Utimaco Hardware Security
+                    Modules (HSMs), trusted transaction and payment security solutions are used to protect many vendors
+                    so they do not find themselves stuck with inflexible technology and limited customization options,
+                    including legacy systems with outdated API functions.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/paymentandtransaction/payment1.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <br><br>
+                <p class="lead">
+                    Utimaco PaymentServer is a Payment Card Industry (PCI) and PIN Transaction Security (PTS) HSM are
+                    designed to support the needs of payment processing environments for credit, debit, e-purse and chip
+                    cards(like Visa, MasterCard, Amex, UnionPay, including card personalization), internet payment
+                    applications, web-based personal identification number (PIN) delivery, and more.
+                    <br><br>
+                    The Utimaco Software Development Kit (SDK) allows for self-customization of the PaymentServer by
+                    your team to handle proprietary and secret algorithms.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="images/paymentandtransaction/2ndimage.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+    </div>
+    <div class="gradient-background">
+        <div style="padding-bottom: 2em;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container marketing">
+
+                    <h6 class="text-light text-center" style="margin: 1em;">Secured Payment Products</h6>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container marketing">
+
+            <!-- Card 1 -->
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col" style="padding-bottom: 2em">
+                    <div class="card card h-100"
+                         style="background-color: #FFFFFF; border-style: none; border-color: transparent;">
+                        <img src="images/bankingandfinance/card1.png" class="card-img-top" alt="Atalla AT1000">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Atalla AT1000</h5>
+                            <p class="card-text">
+                                The Utimaco Atalla HSM is a NextGen PCI PTS HSM v3.0 and FIPS 140-2 Level 3 certified
+                                payments HSM designed to protect customer sensitive data, perform cardholder
+                                authentication,
+                                and manage the cryptographic keys used in eCommerce retail payment transactions.
+                                The AT100 is fully backward compatible.
+                            </p>
+                            <br>
+                            <div class="card-footer" style="background-color: white; border-style: none;">
+                                <div class="col text-center">
+                                    <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col" style="padding-bottom: 2em">
+                    <div class="card card h-100"
+                         style="background-color: #FFFFFF; border-style: none; border-color: transparent;">
+                        <img src="images/bankingandfinance/card2.png" class="card-img-top" alt="PaymentServer">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">PaymentServer</h5>
+                            <p class="card-text">
+                                Utimaco PaymentServer is a PCI PTS HSM v3.0 and FIPS 140-2 Level 3 certified payments
+                                Hardware Security Module designed for card personalization and OEM opportunities.
+                                An HSM’s function is to protect and manage digital keys for strong authentication.
+                            </p>
+                            <br><br>
+                            <div class="card-footer" style="background-color: white; border-style: none;">
+                                <div class="col text-center">
+                                    <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--                <hr class="featurette-divider" style=" margin: 1.5em; border-color: #ffffff00;"> &lt;!&ndash;Divider Line&ndash;&gt;-->
+            </div>
+        </div>
+        <!--    <hr class="featurette-divider">-->
+        <hr class="featurette-divider" style=" margin: 1.5em; border-color: #ffffff00;"> <!--Divider Line-->
+    </div>
+</main>
+
+<div class="container marketing">
+
+    <p class="h3 text-center">Want to know more about our Payment & Transaction Solutions</p>
+    <br><br>
+
+    <p class="lead">
+        Get in touch with us at <a
+            href="mailto: info@utimaco.com?subject=Discuss%20Solutions%20For%20My%20Business"><font color="#2168B4"
+                                                                                                    style="font-weight: bold">info@utimaco.com</font></a>
+        to discuss
+        your requirements. We will jointly find a solution and partner(s) that can cater to your needs.
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a href="mailto: info@utimaco.com?subject=Discuss%20Solutions%20For%20My%20Business">
+                    <button type="submit" class="btn btn-primary text-center"
+                            style="background: #0068b4;border: #0068b4;border-radius: 30px;">Contact Us
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<hr class="featurette-divider" style=" margin: 1.5em; border-color: white;"> <!--Divider Line-->
+
+<!--******************************************************************************************************************************************************-->
+
+<!--Section 6 - Footer -->
+
+<!--Top Footer -->
+
+<footer>
+    <div class="footer-top">
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-3 footer-about wow fadeInUp">
+                    <a href="index.html"><img class="logo-footer" src="images/home/utimacologo.png"
+                                              alt="logo-footer" data-at2x="assets/img/logo.png">
+                    </a>
+                    <p><i class="fas fa-map-marker-alt" style="color: #0068b4;"></i> <b>Headquarters Germany</b>
+                        <br><br> <b>Utimaco GmbH</b> <br> Germanusstrasse 4 <br> 52080 Aachen <br> Germany</p>
+                    <p><i class="fas fa-phone" style="color: #0068b4;"></i> Phone: +49 241 1696-0</p>
+                    <p><i class="fas fa-envelope" style="color: #0068b4;"></i> Email: <a
+                            href="mailto:hello@domain.com">info@utimaco.com</a></p>
+                </div>
+                <div class="col-md-4 offset-md-1 footer-contact wow fadeInDown">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary"
+                                style="background: #0068b4;border: #0068b4;border-radius: 30px;">SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-4 footer-links wow fadeInUp">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Links</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><a class="scroll-link" href="">SUPPORT</a></p>
+                            <p><a href="">CONTACT</a></p>
+                            <p><a href="sitemap.html">SITEMAP</a></p>
+                            <p><a href="">CAREER</a></p>
+                            <p><a href="currentaffairs.html">CURRENT AFFAIRS</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a href="">LEGAL</a></p>
+                            <p><a href="">TERMS &amp; CONDITIONS </a></p>
+                            <p><a href="">PRIVACY</a></p>
+                            <p><a href="">COOKIE POLICY</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Bottom Footer -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-copyright">
+                    &copy; Utimaco By <a href="#">Team BitCamp</a>
+                </div>
+                <div class="col-md-6 footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-xing"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><img src="images/home/kununu-quad.png" height="24" width="24"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<script src="script/bootstrap4.masonry.min.js"></script>
+<script src="script/masonry.js"></script>
+</body>
+</html>
