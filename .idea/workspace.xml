@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447d6582-03dd-4c0b-8dcd-843add508cf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applicationsfp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/applications.html" beforeDir="false" afterPath="$PROJECT_DIR$/applications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingandfinancialservices.html" beforeDir="false" afterPath="$PROJECT_DIR$/bankingandfinancialservices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currentaffairs.html" beforeDir="false" afterPath="$PROJECT_DIR$/currentaffairs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataprotection.html" beforeDir="false" afterPath="$PROJECT_DIR$/dataprotection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limsaccesspoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/limsaccesspoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymentandtransactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/paymentandtransactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securityanddataencryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/securityanddataencryption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutionsbyindustry.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutionsbyindustry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/appauth.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/appauth.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610386049393</updated>
       <workItem from="1610386051847" duration="3502000" />
-      <workItem from="1610446657114" duration="6302000" />
+      <workItem from="1610446657114" duration="7648000" />
     </task>
     <servers />
   </component>
