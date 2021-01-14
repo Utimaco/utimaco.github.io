@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Meta Tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author"
+          content="Tanmay Kulkarni, Wolfgang Voigt, Felipe Paradela , Simeon Dimov, William Van Den Andel ">
+    <title>Data Protection</title>
+
+    <!-- CSS Inclusion -->
+
+    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./style/megamenu.css">
+    <link rel="stylesheet" href="./style/corecss/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/masonry.css">
+    <link rel="stylesheet" href="./style/carousel.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!--Homepage CSS-->
+
+    <link rel="stylesheet" href="./style/home.css">
+
+</head>
+
+<header>
+
+    <!-- Navigation Bar -->
+
+    <div class="customnav"
+         style="margin-top: 0;position: fixed;width: 100%;top: 0;z-index: 1;background: white;box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%);">
+        <nav>
+            <a href="javascript:void(0);" class="mobile-menu-trigger"><img src="images/menu.png"
+                                                                           style="height: 30px; width: 30px; margin-top: 1em;"><img
+                    src="images/home/utimacologo.png"></a>
+            <ul class="menu menu-bar"
+                style="position: fixed; width: 100%; top: 0; z-index: 1;box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%);">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="images/home/utimacologo.png" alt="Utimaco" style="height: 50px;">
+                </a>
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Solutions</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="solutionsbyindustry.html" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Industry <font style="color: #0068b4;">•</font></a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Telecommunications & Lawful Enforcement Agencies</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">Utimaco's LIMS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">Utimaco's Data Retention
+                                                Suite</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="bankingandfinancialservices.html" class="menu-link menu-list-link">Banking
+                                        & Financial Services <font style="color: #0068b4;">•</font></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Governments</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Cloud-Based</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Connected Car (V2V)</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Road Infrastructure (V2I), toll
+                                        collection & ITS</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Energy & Utilities</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Industrial IoT & Manufacturing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Lottery & Gaming</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Media & Entertainment</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Telecommunications</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="applications.html" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Application <font style="color: #0068b4;">•</font></a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="authentication.html" class="menu-link menu-list-link">Authentication <font style="color: #0068b4;">•</font></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Blockchain</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Code Signing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Database Encryption</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Document Signing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Key Injection</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Post-Quantum Crypto Agility</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Public Key Infrastructure (PKI)</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">EJBCA</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Random Number Generator</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">By
+                                Compliance</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Request Document for MiFID II
+                                        Compliance</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Products</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="securityanddataencryption.html" class="menu-link mega-menu-link"
+                               aria-haspopup="true">Security
+                                & Data Encryption <font style="color: #0068b4;">•</font></a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">General Purpose HSM</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">HSM Simulators</a>
+                                </li>
+                                <li>
+                                    <a href="limsaccesspoint.html" class="menu-link menu-list-link"
+                                       aria-haspopup="true">LIMS Access Points <font style="color: #0068b4;">•</font></a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">for Utimaco LIMS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">for Utimaco DRS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Software Development Kits</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="dataprotection.html" class="menu-link mega-menu-link" aria-haspopup="true">Data
+                                Protection <font style="color: #0068b4;">•</font></a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">KeyBRIDGE</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Key Management</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Form Factor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="paymentandtransactions.html" class="menu-link mega-menu-link" aria-haspopup="true">Payment
+                                & Transactions <font style="color: #0068b4;">•</font></a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Payment HSM</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">Resources</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Media
+                                Center</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">E-Books</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">PQC for Dummies e-book</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">HSM for Dummies e-book</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Webinars</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Videos</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Newsletters</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Utimaco
+                                Portal</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="javascript:void(0);" class="menu-link menu-list-link"
+                                       aria-haspopup="true">Software Development Kit (SDK)</a>
+                                    <ul class="menu menu-list">
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">CryptoServer SDK</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-link menu-list-link">CryptoScript SDK</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Integration Guides</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Knowledge Base</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Data Sheets</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Quickstart Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">LITS - Lawful Interception Test
+                                        Suite</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Simulators</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link" aria-haspopup="true">Utimaco
+                                Resources</a>
+                            <ul class="menu menu-list">
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Brochures</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">Case Studies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-link menu-list-link">White Papers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="currentaffairs.html" class="menu-link mega-menu-link">Current Affairs & Events <font style="color: #0068b4;">•</font></a>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);" class="menu-link menu-bar-link" aria-haspopup="true">About Us</a>
+                    <ul class="mega-menu mega-menu--multiLevel"
+                        style="height: 1108%; border-style: solid; border-color: white white #2470B8 white; border-width: 2px;">
+                        <li>
+                            <a href="about.html" class="menu-link mega-menu-link">Company <font style="color: #0068b4;">•</font></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Management</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Investors</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Business Ethics</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Offices & Partners</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Memberships &
+                                Certifications</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Engagement in Research</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Partners</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="menu-link mega-menu-link">Careers</a>
+                        </li>
+                        <li class="mobile-menu-back-item">
+                            <a href="javascript:void(0);" class="menu-link mobile-menu-back-link">Back</a>
+                        </li>
+                    </ul>
+                </li>
+                <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2 float-right"
+                      style="margin-right: auto; margin-left: auto;">
+                    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                           aria-label="Search" style="border-style: solid; border-width: thin; border-color: #0068b4;">
+                    <i class="fas fa-search" style="color: #0068b4" aria-hidden="true"></i>
+                </form>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<body>
+
+<main role="main">
+    <!-- Navigation Bar -->
+
+    <!--******************************************************************************************************************************************************-->
+
+    <!--Section 1 -Jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid bg-cover text-white"
+         style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 0%), url(images/data_protection/jumbotron.jpg); padding-top: 12em; background-position: top;">
+        <div class="container blurred-background">
+            <h1 class="display-4">Data Protection</h1>
+            <h3>Reduce privacy & security risk. Enable compliance.</h3>
+            <p class="lead">In the cloud, on-premises or across systems - pretect your data no materr where it
+                lives.</p>
+        </div>
+    </div>
+
+    <!--Jumbotron-->
+
+    <!--******************************************************************************************************************************************************-->
+
+    <!-- Section 2 - 2nd Nav Bar -->
+
+    <div class="second-nav" id="theSecondnav" style="margin-top: -2em; box-shadow: 0 2px 10px -2px rgb(0 0 0 / 50%);">
+        <div class="container marketing">
+            <a href="#">Authentication</a>
+            <a href="#">Block-safe</a>
+            <a href="#">Key Management</a>
+            <a href="#">Data Rentention Solution</a>
+            <a href="#">KeyBRIDGE</a>
+            <a href="#">Privacy Shield</a>
+            <a href="#">PCI DSS</a>
+            <a href="#">eIDAS</a>
+            <a href="#">GDPR</a>
+            <a href="javascript:void(0);" class="icon" onclick="theSecondnav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <script>
+        function theSecondnav() {
+            var x = document.getElementById("theSecondnav");
+            if (x.className === "second-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "second-nav";
+            }
+        }
+    </script>
+
+    <!--2nd Nav Bar-->
+
+    <!--******************************************************************************************************************************************************-->
+
+    <!-- Section 3 - Protection for how you work -->
+    <hr class="featurette-divider" style=" margin: 1.5em; border-color: white;">
+    <!--Divider Line-->
+    <div class="container marketing">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-1">
+                <h2 class="featurette-heading" style="margin-top: 0; text-align: left;">Protection for how you work</h2>
+                <br>
+                <p class="lead">
+                    Data is a valuable resource in today's environment. It drives our digital economy and powers our
+                    productivity, but it can also have a negative impact on us.
+                    You cannot protect everything from everyone.<br><br>
+                    Therefore, you must implement a risk-based approach to data protection and security.
+                    That way, we can not only optimize our use of data to generate revenue, but also prevent harm or
+                    disasters.
+                    Data breaches continue with regularity and compliance mandates get more stringent, organizations
+                    need to protect their sensitive data in both local and cloud environments.
+                    Not just because you’ve lost a valuable asset, but your reputation, and market cap could be at
+                    stake.<br><br>
+                    Utimaco helps organizations move past silos of encryption and crypto-management solutions to attain
+                    central and uniform deployments of data protection solutions and prepare your organization for the
+                    next security challenge and new
+                    compliance requirements at the lowest total cost of ownership(TCO).
+                    Our advanced data discovery, data encryption, key management, network encryption, hardware security
+                    module and data protection on demand solutions enable customers to protect and remain in control of
+                    their data wherever it resides –
+                    across cloud, on-premises and hybrid IT environments.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <img src="images/data_protection/img_1.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+        <div class="card-deck">
+
+            <!-- Card 1 -->
+
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="images/data_protection/img_2ac.svg" width="140" height="140"
+                     alt="Card image cap" style="padding-top: 25px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center">Data privacy</h5>
+                    <p class="card-text">Protect sensitive information. Personally identifiable information ("PII") is
+                        regulated and must be kept confidential,
+                        otherwise there may be a risk of loss of trust, regulatory actions, brand integrity or
+                        competitive advantage.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="images/data_protection/img_3ac.svg" width="140" height="140"
+                     alt="Card image cap" style="padding-top: 25px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center">Data security</h5>
+                    <p class="card-text">Strong security controls, continuous activity monitoring,
+                        and automatic protection measures should be used to prevent going astray and minimize risks.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="images/data_protection/img_4ac.svg" width="140" height="140"
+                     alt="Card image cap" style="padding-top: 25px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center">Information integrity</h5>
+                    <p class="card-text">Whether you’ve got an inadvertent user virus, or malicious malware attack—you
+                        need access to data when you need it.
+                        Failure may result in fines or wasted time due to re-work.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider" style=" margin: 1.5em; border-color: white;">
+        <!--Divider Line-->
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h3 class="featurette-heading" style="margin-top: 0; text-align: center;">Your data, where it should
+                    be</h2>
+                    <p class="lead">
+                        <ul style="list-style-type: none;">
+                            <li>
+                    <p class="lead">
+                        Utimaco solutions offer you peace of mind knowing you'll access critcal data whenever it is
+                        required,
+                        and the protecting controls will be available to reduce risks from human error, attack, or
+                        disaster.
+                    </p>
+                    </li>
+                    <li>
+                        <h5>Enable digital transformation</h5>
+                        <p class="lead">
+                            Understand your data and how it flows and the associated risk level. Classify data to inform
+                            cloud migration and investment opportunities
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Protect your brand</h5>
+                        <p class="lead">
+                            Automate corrective actions to protect data, or revert out-of-policy changes.
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Confidential & available</h5>
+                        <p class="lead">
+                            Ensure data is easily recoverable in the event of disaster or malware attack.
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Risk management</h5>
+                        <p class="lead">
+                            Perfect security’s a myth. Prioritize what you’re protecting to ensure users follow rules to
+                            mitigate risk and harm.
+                        </p>
+                    </li>
+                    </ul>
+                    </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="images/data_protection/img_5.png" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr class="featurette-divider" style=" margin: 1.5em; border-color: white;">
+    <!--Divider Line-->
+    <!--******************************************************************************************************************************************************-->
+
+    <!-- Section 4 - Data Encryption & Security cards -->
+
+    <div class="gradient-background">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container marketing">
+
+                <h6 class="text-light" style="margin: 1em;">Data Protection</h6>
+            </div>
+        </nav>
+        <hr class="featurette-divider" style=" margin: 1em; border-color: #ffffff00;">
+        <!--Divider Line-->
+        <div class="container marketing">
+            <div class="card-deck">
+
+                <!-- Card 1 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/auth.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Authentication</h5>
+                        <p class="card-text" style="text-align: center;">
+                            Authentication is a process that verifies the identity of a user or device.
+                            It can be part of a broader identity and access management process that continuously
+                            authenticates subjects in a system.
+                            <br><br>
+                            Is a subject really what it claims to be?
+                            This is what the authentication process confirms by means of various authentication
+                            mechanisms
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/block_safe.jpg" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Block-safe</h5>
+                        <p class="card-text" style="text-align: center;">
+                            Utimaco Block-safe secures sensitive identity, keys and data used in blockchain-based
+                            distributed computing platforms.
+                            The FIPS 140-2 L3 compliant HSM provides unrivaled key generation and protection for
+                            Blockchain specific elliptic curves.
+                            It protects and manages encryption keys needed for key derivation within the
+                            tamper-resistant hardware device.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/key_management.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Key Management</h5>
+                        <p class="card-text" style="text-align: center;">
+                            Offered in both on-premise hardware and virtually,
+                            Utimaco Enterprise Secure Key Manager (ESKM) & Virtual Enterprise Secure Key Manager (vESKM)<br>
+                            provide centralized key management, securing encryption keys with consistent policy controls
+                            for data at rest.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider" style=" margin: 1em; border-color: #ffffff00;">
+            <!--Divider Line-->
+
+            <div class="card-deck">
+                <!-- Card 4 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/drs.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Data Rentention Suite</h5>
+                        <p class="card-text" style="text-align: center;">
+                            Data Retention Suite(DRS) has been designed as a carrier-grade system to enable fast
+                            and secure access to retained data by authorized agencies.<br><br>
+                            DRS enables network operators and Internet service providers to easily comply with recent
+                            telecom regulations for data retention.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/keybridge1.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">KeyBRIDGE</h5>
+                        <p class="card-text" style="text-align: center;">
+                            The KeyBRIDGE platform extends a simple, intuitive interface for managing
+                            and distributing cryptographic keying materials across a broad spectrum of use cases.
+                            Organizations can securely store, distribute and access sensitive keying material and secret
+                            data within a single, centralized location.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/compliance.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Privacy Shield</h5>
+                        <p class="card-text" style="text-align: center;">
+                            The transatlantic data transfer is not yet secure: ongoing discussions and criticism from
+                            within the EU,
+                            the U.S. “America first” initiative, review of proficiency and potential shortcomings as
+                            well as GDPR.
+                            Companies are, on the one hand, advised to stay up-to-date and on the other hand,
+                            turn towards encryption & HSMs as the solution to comply with privacy and data protection
+                            requirements.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider" style=" margin: 1em; border-color: #ffffff00;">
+            <!--Divider Line-->
+
+            <div class="card-deck">
+                <!-- Card 7 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/compliance.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PCI DSS</h5>
+                        <p class="card-text" style="text-align: center;">
+                            The Payment Card Industry Data Security Standard (PCI DSS) defines a set of security
+                            standards.
+                            With these companies that accept, process, store or transmit credit/debit card information
+                            can maintain a secure environment
+                            and protect cardholders against misuse of their personal information.
+                            One of the most efficient ways of complying with PCI DSS is to use HSMs.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/compliance.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">eIDAS</h5>
+                        <p class="card-text" style="text-align: center;">
+                            On July 1st 2016, the electronic identification and trust services regulation,
+                            more commonly known as eIDAS, replaced the 17-year old eSignature Directive 1999/93/EC
+                            and became directly applicable in 28 EU member states. <br>As an HSM manufacturer,
+                            Utimaco is at the forefront of defining related technical requirements and achieves
+                            conformity with eIDAS requirements.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+
+                <div class="card all encryption data-security">
+                    <img class="card-img-top" src="images/data_protection/compliance.png" alt="Card image cap"
+                         style=" height:140px; width: auto; align-self: center; padding-top: 2em;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">GDPR</h5>
+                        <p class="card-text" style="text-align: center;">
+                            The new EU data protection framework,
+                            also referred to as the General Data Protection Regulation (GDPR) has been in place since
+                            25th May 2018.
+                            It came with potential heavy fines and applied to every company operating in Europe.<br><br>
+                            Encryption is mentioned as the only technology recommended to achieve compliance.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background-color: white; border-style: none;">
+                        <div class="col text-center">
+                            <p><a class="readmore-button readmore btn" href="#" role="button">Learn more ➔</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider" style=" margin: 2.5em; border-color: #ffffff00;">
+        <!--Divider Line-->
+    </div>
+    </div>
+
+    <!--******************************************************************************************************************************************************-->
+    <hr class="featurette-divider" style=" margin: 1.5em; border-color: white;">
+    <!--Divider Line-->
+    <!--Section 5 - Contact Us -->
+
+
+    <div class="container marketing">
+
+        <p class="h3 text-center">Want your data more secure and protected?</p>
+        <br><br>
+
+        <p class="lead text-center">
+            Get in touch with us at <a
+                href="mailto: info@utimaco.com?subject=Discuss%20Solutions%20For%20My%20Business">
+            <font color="#2168B4" style="font-weight: bold">info@utimaco.com</font>
+        </a>
+            to discuss how we may help you achieve that. Together we will find a solution that caters to your needs.
+        </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="mailto: info@utimaco.com?subject=Discuss%20Solutions%20For%20My%20Business">
+                        <button type="submit" class="btn btn-primary text-center"
+                                style="background: #0068b4;border: #0068b4;border-radius: 30px;">Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<hr class="featurette-divider" style=" margin: 1.5em; border-color: white;">
+<!--Divider Line-->
+
+<!--******************************************************************************************************************************************************-->
+
+<!--Section 6 - Footer -->
+
+<!--Top Footer -->
+
+<footer>
+    <div class="footer-top">
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-3 footer-about wow fadeInUp">
+                    <a href="index.html"><img class="logo-footer" src="images/home/utimacologo.png"
+                                              alt="logo-footer" data-at2x="assets/img/logo.png">
+                    </a>
+                    <p><i class="fas fa-map-marker-alt" style="color: #0068b4;"></i> <b>Headquarters Germany</b>
+                        <br><br> <b>Utimaco GmbH</b> <br> Germanusstrasse 4 <br> 52080 Aachen <br> Germany</p>
+                    <p><i class="fas fa-phone" style="color: #0068b4;"></i> Phone: +49 241 1696-0</p>
+                    <p><i class="fas fa-envelope" style="color: #0068b4;"></i> Email: <a
+                            href="mailto:info@utimaco.com">info@utimaco.com</a></p>
+                </div>
+                <div class="col-md-4 offset-md-1 footer-contact wow fadeInDown">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary"
+                                style="background: #0068b4;border: #0068b4;border-radius: 30px;">SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-4 footer-links wow fadeInUp">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Links</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><a class="scroll-link" href="">SUPPORT</a></p>
+                            <p><a href="">CONTACT</a></p>
+                            <p><a href="sitemap.html">SITEMAP</a></p>
+                            <p><a href="">CAREER</a></p>
+                            <p><a href="currentaffairs.html">CURRENT AFFAIRS</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a href="">LEGAL</a></p>
+                            <p><a href="">TERMS &amp; CONDITIONS </a></p>
+                            <p><a href="">PRIVACY</a></p>
+                            <p><a href="">COOKIE POLICY</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Bottom Footer -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-copyright">
+                    &copy; Utimaco By <a href="#">Team BitCamp</a>
+                </div>
+                <div class="col-md-6 footer-social">
+                    <a href="https://www.facebook.com/pages/category/Computer-Company/utimaco-GmbH-114229575303733/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/utimaco" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.xing.com/company/utimaco" target="_blank" rel="noopener noreferrer"><i class="fab fa-xing"></i></a>
+                    <a href="https://www.linkedin.com/company/utimaco" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.kununu.com/de/utimaco" target="_blank" rel="noopener noreferrer"><img src="images/home/kununu-quad.png" height="24" width="24"></a>
+                    <a href="https://www.youtube.com/channel/UCfijxhh9f0LDnj0W3FJOfFw" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<script src="script/bootstrap4.masonry.min.js"></script>
+<script src="script/masonry.js"></script>
+</body>
+</html>

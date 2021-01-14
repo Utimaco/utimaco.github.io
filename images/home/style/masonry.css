@@ -1,0 +1,8 @@
+.item {
+    border: 1px solid #7fb3d9;
+    background-color: #fafdff;
+    /*box-shadow: 0 0 10px -3px #ccc;*/
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
